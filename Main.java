@@ -9,24 +9,26 @@ public class Main {
         int x = rand.nextInt(100);
         int guess;
        
-        System.out.println("Test to see if you can guess (does not count), continue to guess if it works.:");
+        System.out.println("Guess:");
         guess = scan.nextInt();
         int count=0; //count number of times user guesses
         while(guess!=x) {
             //if x is less than greater than or equal to
             
             if (guess < x) {
-                guess = scan.nextInt();
+               
                 count = count + 1;
                 System.out.println(count + " " + "guess");
                 System.out.println("Too Low!!");
             }         
             if (guess > x) {
-                guess = scan.nextInt();
+               
                 count = count + 1;
                 System.out.println(count + " " + "guess");
                 System.out.println("Too High!!");
+            
             }
+            guess = scan.nextInt();
             
            
        
