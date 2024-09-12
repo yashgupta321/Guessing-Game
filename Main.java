@@ -8,7 +8,7 @@ public class Main {
 
         int x = rand.nextInt(100);
         int guess;
-        System.out.println(x);
+       
         System.out.println("Test to see if you can guess (does not count), continue to guess if it works.:");
         guess = scan.nextInt();
         int count=0; //count number of times user guesses
